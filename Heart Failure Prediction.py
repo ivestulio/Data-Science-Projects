@@ -27,7 +27,7 @@ from sklearn.model_selection import RandomizedSearchCV,GridSearchCV,RepeatedStra
 
 # IMPORTING DATASET 
 
-data = pd.read_csv('../input/heart-failure-prediction/heart.csv')
+data = pd.read_csv("heart.csv")
 data.info()
 
 # Visualizations 
