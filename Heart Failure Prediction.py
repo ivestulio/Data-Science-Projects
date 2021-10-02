@@ -1,5 +1,6 @@
+## Libraries:
 
- Manipulação de dados:
+ #Manipulação de dados:
 import pandas as pd 
 import missingno as msno 
 from collections import Counter
@@ -20,9 +21,6 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import RandomForestClassifier,AdaBoostClassifier,GradientBoostingClassifier
 from sklearn.naive_bayes import GaussianNB,BernoulliNB
 from sklearn.ensemble import VotingClassifier
-
-
-
 # Evolução :
 from sklearn.metrics import precision_score,accuracy_score
 from sklearn.model_selection import RandomizedSearchCV,GridSearchCV,RepeatedStratifiedKFold
