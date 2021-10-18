@@ -8,7 +8,22 @@ Create a model to assess the likelihood of a possible heart disease event
 Questions:
 What is the relationship between parmeter and Heart Disease ?
 What age is most affected by this disease ?
-
+#### Models: 
+LogisticRegression,
+          SVC,
+         KNeighborsClassifier,
+         DecisionTreeClassifier,
+        GaussianNB,
+           SGDClassifier,
+           Perceptron,
+          NearesCentroid,
+           RidgeClassifier,
+          NuSVC,
+         BernoulliNB,
+ RandomForestClassifier,
+           AdaBoostClassifier,
+          GradientBoostingClassifier,
+         PassiveAggressiveClassifier,
 ## Modelo preditivo Doenças Hepáticas
 
 ## Modelo preditivo potabilidade de amostras de água
