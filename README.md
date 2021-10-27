@@ -50,5 +50,24 @@ LogisticRegression,
            AdaBoostClassifier,
           GradientBoostingClassifier,
          PassiveAggressiveClassifier,
+       
+## Lung Cancer Predictions
+
+#### Models:   
+LogisticRegression
+         SVC
+       KNeighborsClassifier
+        DecisionTreeClassifier
+         GaussianNB
+         SGDClassifier
+          Perceptron
+         NearestCentroid
+        RidgeClassifier
+          BernoulliNB
+         RandomForestClassifier
+          AdaBoostClassifier
+         GradientBoostingClassifier
+           PassiveAggressiveClassifier
+         
 
 ## Modelo de classificação tipo de vidro 
