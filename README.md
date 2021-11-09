@@ -1,6 +1,6 @@
 # Data-Science-Projects
 
-[Click here to see my projects on Kaggle ^^](https://www.kaggle.com/ivessantos) 
+[Click here to see my projects on Kaggle](https://www.kaggle.com/ivessantos) 
 
 ## Heart Failure Prediction
 #### Project Description:
