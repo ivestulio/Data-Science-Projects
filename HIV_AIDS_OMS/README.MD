@@ -102,10 +102,10 @@ A busca por erradicar essa epidemia deve ser consistente e segundo a meta inclu�
 
 ## Referência Bibliográfica
 
-UNAIDS,c2021.Estatísticas.Disponível em: <https://unaids.org.br/estatisticas/>.Acesso em: 14 de nov. de 2021
+[1] UNAIDS,c2021.Estatísticas.Disponível em: <https://unaids.org.br/estatisticas/>.Acesso em: 14 de nov. de 2021
 
-MINISTÉRIO DA SAÚDE.Aids / HIV: o que é, causas, sintomas, diagnóstico, tratamento e prevenção. Disponível em <https://antigo.saude.gov.br/saude-de-a-z/aids-hiv>.Acesso em: 15 de nov. de 2021
+[2] MINISTÉRIO DA SAÚDE.Aids/HIV: o que é, causas, sintomas, diagnóstico, tratamento e prevenção. Disponível em <https://antigo.saude.gov.br/saude-de-a-z/aids-hiv>.Acesso em: 15 de nov. de 2021
 
-WORLD HEALTH ORGANIZATION.HIV/AIDS.Disponível em: <https://www.who.int/health-topics/hiv-aids#tab=tab_1>.Acesso em: 15 de nov. de 2021
+[3] WORLD HEALTH ORGANIZATION.HIV/AIDS.Disponível em: <https://www.who.int/health-topics/hiv-aids#tab=tab_1>.Acesso em: 15 de nov. de 2021
 
-OPAS.HIV/aids.Disponível em: <https://www.paho.org/pt/topicos/hivaids>.Acesso em: 16 de nov. de 2021
+[4] OPAS.HIV/aids.Disponível em: <https://www.paho.org/pt/topicos/hivaids>.Acesso em: 16 de nov. de 2021
