@@ -1,25 +1,26 @@
 
-<img align= center src="https://user-images.githubusercontent.com/83380670/142285881-2bfd2dbd-518a-41c8-becf-78860be1a808.jpg" width="100%"  height="10%" />
+<img align= center src="https://user-images.githubusercontent.com/83380670/142331746-32f9525d-30bd-427e-b884-bebb0ad0ab82.jpg" width="110%" height="40%" />
+
 
 
 # Análise Preditiva - Doenças Hepáticas
 
+O fígado exerce mais de 200 funções além de ser responsável por manter o corpo livre de toxinas e células que se tornaram inúteis, auxiliar na digestão de alimentos, síntese de colesterol e metabolizar alguns elementos como bebidas alcoólicas e gorduras.
+Doença hepática é qualquer condição que danifica o figado impedindo seu funxionamento e pode ter diferentes causas , seja genética ou decorrente de fatores que danificam o órgão, como vírus ou uso de alcool. 
+
 
 ## Objetivo
 
+O objetivo desse projeto é gerar um modelo de predição de possível doença hepática usando como parâmetros de entrada o resultado laboratórial de sangue. Para isso será utilizado 7 modelos de classificação.
 
 ## Dataset
 <h4>1. Resultados Lab. </h4>
 O conjunto de dados contêm os resultados laboratóriais de doadores de sangue. 
 
-
-
-
-
-**Fonte:** UCI -https://archive.ics.uci.edu/ml/datasets/HCV+data <br>
-
+**Fonte:** 
 **File:**     <br>
-
+**Registros:**
+**Parâmetros:** 
 
 
 
@@ -50,6 +51,9 @@ O conjunto de dados contêm os resultados laboratóriais de doadores de sangue.
 
 
 ## Conclusão
-
+A maioria das doenças hepáticas são inicialmente silenciosas. Por isso, os exames de rotina e a atenção a certos sinais do seu corpo são indispensáveis para manter a saúde deste órgão.
 ## Referência Bibliográfica
+https://www.clinicaceu.com.br/blog/doencas-hepaticas-tipos-sintomas-e-tratamentos/
+
+https://hepatogastro.com.br/doenca-hepatica/
 
