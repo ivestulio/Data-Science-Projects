@@ -1,11 +1,11 @@
 
-<img align= center src="https://user-images.githubusercontent.com/83380670/142331746-32f9525d-30bd-427e-b884-bebb0ad0ab82.jpg" width="110%" height="40%" />
+<img align= center src="https://user-images.githubusercontent.com/83380670/142331746-32f9525d-30bd-427e-b884-bebb0ad0ab82.jpg" width="110%" height="100%" />
 
 
 
 # Análise Preditiva - Doenças Hepáticas
 
-O fígado exerce mais de 200 funções além de ser responsável por manter o corpo livre de toxinas e células que se tornaram inúteis, auxiliar na digestão de alimentos, síntese de colesterol e metabolizar alguns elementos como bebidas alcoólicas e gorduras.
+O fígado é um órgão que exerce mais de 200 funções, além de ser responsável por manter o corpo livre de toxinas e células que se tornaram inúteis, auxiliar na digestão de alimentos, síntese de colesterol e metabolizar alguns elementos como bebidas alcoólicas e gorduras.
 Doença hepática é qualquer condição que danifica o figado impedindo seu funxionamento e pode ter diferentes causas , seja genética ou decorrente de fatores que danificam o órgão, como vírus ou uso de alcool. 
 
 
@@ -17,14 +17,35 @@ O objetivo desse projeto é gerar um modelo de predição de possível doença h
 <h4>1. Resultados Lab. </h4>
 O conjunto de dados contêm os resultados laboratóriais de doadores de sangue. 
 
-**Fonte:** 
+**Fonte:**  https://archive.ics.uci.edu/ml/datasets/HCV+data
 **File:**     <br>
-**Registros:**
+**Registros:** <br>
 **Parâmetros:** 
+1) Identificação do Paciente
+2) Diagnóstico
+3) Idade
+4) Sexo
+5) ALB
+6) ALP
+7) ALT
+8) AST
+9) BIL
+10) HE
+11) CHOL
+12) CREA
+13) GGT
+14) PROT
 
 
 
 ## Análise dos Dados
+
+Os dados foram baixados do Kaggle e então analisados usando o Jupyter Nootebook.
+Após a etapa de coleta dos dados, os mesmos foram tratados e explorados. Na etapa de tratamento foi possível fazer a limpeza e transformação dos dados, assim como criação de novas features possibilidando realizar vizualizações e entendimento da relação entre as variáveis
+
+
+O projeto se basei na predição do diagnóstico de saúde hepática a partir de um conjunto de observações de resultados laboratoriáis de sangue. Como o diagnóstico é uma variável categória podendo assumir (*após o tratamento de dados necessário*) 0 para saudável e 1 para doente. Foi utilizado nesse projetos modelos de classificação.
+
 
 ### Modelos
 1. Logistic Regression
@@ -34,11 +55,34 @@ O conjunto de dados contêm os resultados laboratóriais de doadores de sangue.
 5. CatBoost Classifier
 6. Gradient Boosting Classifier 
 
+
+**O notebook em python com as análises feitas pode ser conferido em:** 
+
+
 ## Resultados
+
+### Conhecendo os dados:
+Tipo de dados 
+Distribuição 
+estatística
+Outliers
+
+Tratamento:
+
+
+Inicialmente foi feita um estudo estatístico para conhecer a distribuição dos dados na amostra. 
+Aplicado o teste de S... e pela obervação visual dos dados  , se observa a 
 
 <img align= center src="https://user-images.githubusercontent.com/83380670/142291893-fbaf7086-3cab-4ca5-b1be-d6c76e852a84.png" width="70%" height="70%" />
 
+### Análise de Outliers 
+<img align= center src="https://user-images.githubusercontent.com/83380670/142464865-ce02cec4-36e5-4c64-9a5c-39769ea4b769.png" width="70%" height="70%" />
+
+
 <img align= center src="https://user-images.githubusercontent.com/83380670/142291938-5efffecc-71b2-4e72-bf2f-327502a538e3.png" width="70%" height="70%" />
+
+
+
 
 <img align= center src="https://user-images.githubusercontent.com/83380670/142292166-522f309a-854c-4953-b7ea-28d938833287.png" width="70%" height="70%" />
 
