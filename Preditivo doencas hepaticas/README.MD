@@ -82,24 +82,56 @@ Na distribuição dos resultados do exame de sangue por idade, identificado o di
 
 <img align= center src="https://user-images.githubusercontent.com/83380670/142631728-967c633a-1f72-46ef-987e-e1e126b551f3.png" width="70%" height="70%" />
 
-<img align= center src="https://user-images.githubusercontent.com/83380670/142292368-3fb7ffdf-7921-464d-ad24-363fb1c7b8e3.png" width="50%" height="70%" />
 
+
+<!--
+<img align= center src="https://user-images.githubusercontent.com/83380670/142292368-3fb7ffdf-7921-464d-ad24-363fb1c7b8e3.png" width="50%" height="70%" />
+-->
+
+
+
+Os dados após o tratamento de transformações de variáveis necessários foram divididos em dois conjuntos. Dados de treino com 471 registros e dados de teste com 118 registros e então feita a aplicação dos modelos ao conjunto de treino para ajuste dos parâmetros e posterior aplicação dos modelos aos dados de teste para verificar a concordância dos dados preditos com os dados reais e assim termos a precisão do modelo aplicado, descritos na tabela:
+
+<img align= center src="https://user-images.githubusercontent.com/83380670/142728154-c169525b-d3fa-4015-92ae-2fb86d134d90.png" width="40%" height="70%" />
+
+
+E no grafico:
 
 <img align= center src="https://user-images.githubusercontent.com/83380670/142292534-ef2b7f50-aba9-432a-927e-a726b643484c.png" width="50%" height="70%" />
+
+Para vizualizar o desempenho dos algorítimos, foi utilizada a construção da matriz de confusão ou matriz de erro , onde cada linha representa as instância da classe prevista e cada coluna as instâncias da classe atual.
+
+<img align= center src="https://user-images.githubusercontent.com/83380670/142730444-691ed0d2-e35a-4e3e-94b3-0927c14d562c.png" width="40%" height="70%" />
+
+
+Onde: P = Positivo; N = Negativo; VP = Verdadeiro Positivo; FP = Falso Positivo; VN = Verdadeiro Negativo; FN = Falso Negativo.
+
+
+Todos os modelos predisseram a mesma quantidade de verdadeiros positivos, ou seja , quando a classe foi prevista corretamemte. Nenhum dos modelos apresentaram falsos positivos. Se diferenciaram na quantidade prevista para Falsos negativos e Verdadeiros Negativos.
+
+<img align= center src="https://user-images.githubusercontent.com/83380670/142732444-e449d0b0-c0ac-42d4-87f9-531f8278b5bb.png" width="70%" height="70%" />
+
 
 
 
 
 ## Conclusão
+
+
 A maioria das doenças hepáticas são inicialmente silenciosas. Por isso, os exames de rotina e a atenção a certos sinais do seu corpo são indispensáveis para manter a saúde deste órgão.
+O estudo sistemático dos dados dos pacientes podem fornecer modelos para diagnósticos mais rápidos e precisos.
+Quanto aos modelos de classificação empregados nesse projeto, a Regressão Logística e o CatBoosting apresentaram os maiores valores de precisão para predição dos diagnósticos de doenças hepáticas estudados. 
+
 ## Referência Bibliográfica
-[1] https://www.clinicaceu.com.br/blog/doencas-hepaticas-tipos-sintomas-e-tratamentos/
+[1] CLINICACEU.Doenças hepáticas: tipos, sintomas e tratamentos.Disponível em, <https://www.clinicaceu.com.br/blog/doencas-hepaticas-tipos-sintomas-e-tratamentos/>.Acesso em: 18 de nov. de 2021
 
-[2] https://hepatogastro.com.br/doenca-hepatica/
+[2] HEPATOGASTRO.Doença Hepática.Disponível em <https://hepatogastro.com.br/doenca-hepatica/>Acesso em: 18 de Novembro de 2021
 
-[3] produto-educacional-rogerio-lopes-craveiro.pdf
+[3] CRAVEIRO, R.L. PLATAFORMA ON-LINE PARA O ENSINO DE BIOESTATÍSTICA: Ambiente virtual
+de aprendizagem e software estatístico como ferramentas de apoio ao ensino.2016   
 
-[4] https://drauziovarella.uol.com.br/doencas-e-sintomas/cirrose/
-[5] https://bvsms.saude.gov.br/esteatose-hepatica/
+[4] DRAUSIO.Cirrose,Doenças e Sintomas.Disponível em <https://drauziovarella.uol.com.br/doencas-e-sintomas/cirrose/> Acesso em: 19 de Novembro de 2021
 
-[6] http://www.revista.unifeso.edu.br/index.php/cadernosdemedicinaunifeso/article/view/752
+[5] BIBLIOTECA VIRTUAL EM SAÚDE. MS. Esteatose Hepática.Disponível em <https://bvsms.saude.gov.br/esteatose-hepatica/> Acesso em 19 de Novembro de 2021.
+
+[6] CADERNO DE MEDICINA-UNIFESO.Perfil das doenças hepáticas crônicas no Ambulatório do UNIFESO. Disponível em <http://www.revista.unifeso.edu.br/index.php/cadernosdemedicinaunifeso/article/view/752>.Acesso em: 19 de Novembro de 2021
