@@ -42,20 +42,36 @@ mg/L e macia quando os teores em carbonato de cálcio são <60 mg/L.
 
 <img align= center src="https://user-images.githubusercontent.com/83380670/142760232-8bc542a4-b678-4555-8653-e6ef03e63c1a.png" width="70%" height="70%" />
 
+Sólidos Totais Dissolvidos (STD) é a medida da quantidade de material dissolvido na água. Composto por sais inorgânicos como cálcio, magnésio, cloretos, sulfatos, bicarbonatos, etc, junto com muitos outros compostos inorgânicos que se dissolvem facilmente na água.
+É uma importante métrica de qualidade da água que se refere a todas as substâncias filtráveis orgânicas e inorgânicas encontradas na água.
+
 
 <img align= center src="https://user-images.githubusercontent.com/83380670/142760252-c3330e3f-300c-45e0-9042-49dffaae5886.png" width="70%" height="70%" />
-36
+
+Cloraminas são um grupo de subprodutos de desinfecção, formado a partir da reação de cloro com o nitrogênio da amônia. Podendo ser derivados de procedimentos de tratamento da água e também de detritos celulares de bactérias e algas mortas  A mono-cloramina é o membro mais simples e mais comum do grupo, muitas vezes produzido intencionalmente a partir da reação de cloro puro e amônia pura.
+São consideradas contaminantes por serem tóxicas e terem um odor desagradável 
+
 
 <img align= center src="https://user-images.githubusercontent.com/83380670/142760272-16dbe655-8742-4d3c-9230-720a82e684ec.png" width="70%" height="70%" />
-39
+
+O sulfato (SO4) pode ser encontrado em quase todas as águas naturais, sendo um dos íons mais abundantes na água marinha e estuarina. A origem da maioria dos compostos de sulfato é a oxidação de minérios de sulfito, a presença de xisto ou resíduos industriais. O sulfato pode ser altamente prejudicial a saúde humana, causando diarréias, vômitos e demais problemas de saúde, caso esteja presente na água em excesso. 
 
 <img align= center src="https://user-images.githubusercontent.com/83380670/142760283-d16e6537-1f5a-404d-8b28-d0115c108748.png" width="70%" height="70%" />
-42
 
-<img align= center src="https://user-images.githubusercontent.com/83380670/142760283-d16e6537-1f5a-404d-8b28-d0115c108748.png" width="70%" height="70%" />
-45
+A Condutividade elétrica da água é a capacidade que a água possui de conduzir corrente elétrica. Este parâmetro está relacionado com a presença de íons dissolvidos na água, por serem partículas carregadas eletricamente, quanto maior for a quantidade de íons dissolvidos, maior será a condutividade elétrica na água.
 
 
+<img align= center src="https://user-images.githubusercontent.com/83380670/143085387-903dfb45-e4d8-46e4-a80a-a8163335ccc7.png" width="70%" height="70%" />
+
+
+Carbono orgânico total é a medida da quantidade total de carbono de compostos orgânicos. Esses compostos podem ser provenientes de fontes naturais, como a decomposição de material orgânico ou contaminantes como inseticidas, herbicidas, produtos agrícolas que entram no curso de água pelo escoamento da chuva. Outra fonte de carbono orgânico muito comum é através de águas residuais domésticas e industriais que são dispejados nos corpos dágua.
+
+
+<img align= center src="https://user-images.githubusercontent.com/83380670/143085577-c2c1c013-a8c1-4be2-86c5-e6b4021b2759.png" width="70%" height="70%" />
+
+Trialometanos. 
+
+Os trihalometanos
 <img align= center src="https://user-images.githubusercontent.com/83380670/142760341-e0da65f2-dd92-486a-ad94-43bfbbdfc1c0.png" width="70%" height="70%" />
 48
 
@@ -64,6 +80,8 @@ mg/L e macia quando os teores em carbonato de cálcio são <60 mg/L.
 
 <img align= center src="https://user-images.githubusercontent.com/83380670/142760392-cc6b25b7-b1c7-4e4a-8d39-27cf77ddd01a.png" width="50%" height="70%" />
 55
+
+
 
 
 
@@ -87,3 +105,13 @@ http://site.sabesp.com.br/site/interna/Default.aspx?secaoId=40
 https://repositorio.ufmg.br/bitstream/1843/MPBB-6ZQERE/6/cap_tulo_06_qualidade_das__guas.pdf
 
 https://www.apda.pt/site/upload/FT-QI-10-%20Dureza%20total.pdf
+
+https://www.digitalwater.com.br/solidos-dissolvidos-filtracao-da-agua/
+
+https://www.laboprime.com.br/analise-de-sulfato-em-agua-e-efluentes/
+
+[] CABRERA.L.C, BAUMGARTEN.M.G.Z et al. Adaptação do Método Turbidimétrico para análie de sulfato em amostras de águas estauarinas e marinhas.Repositório FURG.7-10.2006
+
+https://www.digitalwater.com.br/condutividade-eletrica-guia-definitivo/
+
+https://www.elgalabwater.com/blog/total-organic-carbon-toc
