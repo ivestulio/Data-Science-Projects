@@ -4,14 +4,17 @@
 
 # Análise Preditiva - Qualidade da Água
 
+A água contém componentes, os quais provêm do próprio ambiente natural ou foram introduzidos a partir de atividades humanas. Sendo usada para diversos fins, como consumo humano, lazer, irrigação, entre outro e sua qualidade pode ser representada através de parâmetros que traduzem as suas principais características físicas, químicas e biológicas.
+Verificar e acompanhar a qualidade da água é necessário para destinar seu uso.
+
 
 
 ## Objetivo
-
+O objetivo do projeto é criar um modelo de predição da qualidade da água
 
 ## Dataset
 
-<h4>1. Quantidade de pessoas vivendo com HIV/AIDS </h4>
+<h4>1. Qualidade da água </h4>
 
 **Fonte:** OMS<br>
 
@@ -24,13 +27,18 @@
 
 ## Resultados
 
-
+Potencial Hidrogeniônico (pH) é uma medida logarítima que varia de 0 a 14, utilizada para especificar a acidez ou basicidade de uma solução, se uma água é ácida (pH inferior a 7), neutra (pH igual a 7) ou alcalina (pH maior do que 7);
+É um parâmetro que não tem risco sanitário associado diretamente à sua medida. Faixa recomendada de pH na água é de 6,0 a 9,5.
 
 
 
 <img align= center src="https://user-images.githubusercontent.com/83380670/142760205-682658aa-b58f-4b34-b5e4-e4cc54d6d769.png" width="70%" height="70%" />
 
-
+O parâmetro Dureza da água representa a presença de sais de metais alcalino terrosos, principalmente cátions de cálcio e magnésio.
+Segundo a OMS (Organização Mundial de Saúde), uma água é designada por água muito dura
+quando apresenta uma concentração em carbonato de cálcio superior a 180 mg/L;
+dura com concentração entre 120 e 180 mg/L, moderadamente dura entre 60-120
+mg/L e macia quando os teores em carbonato de cálcio são <60 mg/L.
 
 <img align= center src="https://user-images.githubusercontent.com/83380670/142760232-8bc542a4-b678-4555-8653-e6ef03e63c1a.png" width="70%" height="70%" />
 
@@ -63,5 +71,19 @@
 
 
 
-
 ## Referência Bibliográfica
+
+https://tratamentodeagua.com.br/artigo/qualidade-da-agua/
+
+https://www.gov.br/ana/pt-br/assuntos/monitoramento-e-eventos-criticos/qualidade-da-agua
+
+https://www.saaec.com.br/agua/qualidade-da-agua/
+
+https://asstefil.com.br/solucoes-tratamento-filtragem-agua/reducao-de-cloraminas/
+
+http://site.sabesp.com.br/site/interna/Default.aspx?secaoId=40
+
+
+https://repositorio.ufmg.br/bitstream/1843/MPBB-6ZQERE/6/cap_tulo_06_qualidade_das__guas.pdf
+
+https://www.apda.pt/site/upload/FT-QI-10-%20Dureza%20total.pdf
