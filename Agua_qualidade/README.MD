@@ -3,14 +3,14 @@
 
 
 # Análise Preditiva - Qualidade da Água
-
+A  água é indispensável para vida humana e possui uma presença signifiativa no cotidiano das pessoas. De acordo com sua utilização, existe um conjunto de critérios e normas para a qualidade da água.
 A água contém componentes, os quais provêm do próprio ambiente natural ou foram introduzidos a partir de atividades humanas. Sendo usada para diversos fins, como consumo humano, lazer, irrigação, entre outro e sua qualidade pode ser representada através de parâmetros que traduzem as suas principais características físicas, químicas e biológicas.
 Verificar e acompanhar a qualidade da água é necessário para destinar seu uso.
 
 
 
 ## Objetivo
-O objetivo do projeto é criar um modelo de predição da qualidade da água
+O objetivo do projeto é criar um modelo de predição da qualidade da água.
 
 ## Dataset
 
@@ -24,8 +24,48 @@ O objetivo do projeto é criar um modelo de predição da qualidade da água
 
 **Período de dados:** anual
 
+## Análise dos Dados:
+Os dados foram analisados em Python com o auxílio do Jupyter Notebook. 
+Na etapa de tratamento foi possível fazer a limpeza e transformação de variáveis afim de normalização dos dados. 
+Foram aplicados 15 modelos de classificação 
+
+
+**Modelos**
+1. LogisticRegression
+2. SVC
+3. KNeighborsClassifier
+4. DecisionTreeClassifier
+5. GaussianNB
+6. SGDClassifier
+7. Perceptron
+8. NearestCentroid
+9. RidgeClassifier
+10. NuSVC
+11. BernoulliNB
+12. RandomForestClassifier
+13. AdaBoostClassifier
+14. GradientBoostingClassifier
+15. PassiveAggressiveClassifier
 
 ## Resultados
+ 
+### Análise Exploratória
+
+Inicialmente foi feito um estudo dos dados. Com o auxílio do gráfico Boxplot nota-se que todos os parâmetros possuim outliers superiores e inferiores.
+Outliers são valores que destoam muito dos demais considerando para isso estar fora de um intervalo de distância interquartílica. Um tratamento adequado aos outliers é fundamental para que eles não representem desvios no modelo de regressão e classificação. Nesse projeto, afim de estudo, os outliers não serão tratados e nem retirados do conjunto de dados.
+
+<img align= center src="https://user-images.githubusercontent.com/83380670/143305444-ecfe557a-1f98-41bb-b740-c6c9db9ac16a.png" width="70%" height="70%" />
+
+Não existe correlação linear entre os parâmetros estudados, fato que pode ser confirmado através da vizualização dos gráficos de dispersão entre os parâmentros e os valores da correlação de Spearman presentes na matriz de correlação.
+
+<img align= center src="https://user-images.githubusercontent.com/83380670/143308198-7b30899a-57e7-4024-96c6-387b58db7a4c.png" width="70%" height="70%" />
+
+
+
+<img align= center src="https://user-images.githubusercontent.com/83380670/143306995-ecc1d143-8acf-4a77-9d56-50b104815913.png" width="100%" height="70%" />
+
+
+### Parâmetros
 
 Potencial Hidrogeniônico (pH) é uma medida logarítima que varia de 0 a 14, utilizada para especificar a acidez ou basicidade de uma solução, se uma água é ácida (pH inferior a 7), neutra (pH igual a 7) ou alcalina (pH maior do que 7);
 É um parâmetro que não tem risco sanitário associado diretamente à sua medida. Faixa recomendada de pH na água é de 6,0 a 9,5.
@@ -80,16 +120,22 @@ Na água suas principais causas da turbidez são: presença de matérias sólida
 A turbidez reduz a penetração da luz solar na coluna d´água, prejudicando a fotossíntese das algas e plantas aquáticas submersas.
 
 <img align= center src="https://user-images.githubusercontent.com/83380670/142760364-53ff85aa-2f25-49bd-bb3c-6b9aa2c5c8e5.png" width="70%" height="70%" />
-52
 
-<img align= center src="https://user-images.githubusercontent.com/83380670/142760392-cc6b25b7-b1c7-4e4a-8d39-27cf77ddd01a.png" width="50%" height="70%" />
-55
+### Análise preditiva: 
 
+Após feito o tratamento de dados necessário afim de normalização dos registros , os dados foram divididos em dados de treino e dados de testes e feito então a aplicação dos modelos ao conjunto de dados de treino para ajuste dos parâmetros e aos dados de teste para verificar a precisão das predições do modelo. 
 
-
-
+<img align= center src="https://user-images.githubusercontent.com/83380670/143253861-9ecf1820-941d-4e5c-afac-3be27bcc4902.png" width="30%" height="70%" />
 
 
+Após treino dos modelos, foi feito também a otimização dos hiperparâmetros dos três modelos que apresentaram melhor performance. 
+
+#### Modelo Final
+
+
+## Conclusão
+
+A  água é indispensável para vida humana e possui uma presença signifiativa no cotidiano das pessoas. De acordo com sua utilização, existe um conjunto de critérios e normas para a qualidade da água.
 
 
 
