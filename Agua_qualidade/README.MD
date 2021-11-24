@@ -16,13 +16,10 @@ O objetivo do projeto é criar um modelo de predição da qualidade da água.
 
 <h4>1. Qualidade da água </h4>
 
-**Fonte:** OMS<br>
+**Fonte:** Kaggle <br>
+**Disponível em:** <https://www.kaggle.com/adityakadiwal/water-potability>
 
-**File:**     <br>
 
-**Período:** 1990 - 2020 <br>
-
-**Período de dados:** anual
 
 ## Análise dos Dados:
 Os dados foram analisados em Python com o auxílio do Jupyter Notebook. 
