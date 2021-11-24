@@ -69,11 +69,15 @@ Carbono orgânico total é a medida da quantidade total de carbono de compostos 
 
 <img align= center src="https://user-images.githubusercontent.com/83380670/143085577-c2c1c013-a8c1-4be2-86c5-e6b4021b2759.png" width="70%" height="70%" />
 
-Trialometanos. 
 
-Os trihalometanos
+Os trialometanos constituem um grupo de compostos orgânicos derivados do metano (CH4), substituídos por halogênios e possuem a fórmula geral CHX3, onde X pode ser cloro, bromo, possivelmente iodo, ou combinações a partir dos mesmos. Ocorrem, principalmente na água potável, como produtos resultantes da reação entre substâncias químicas que se utilizam em tratamentos oxidativos.
+
+
 <img align= center src="https://user-images.githubusercontent.com/83380670/142760341-e0da65f2-dd92-486a-ad94-43bfbbdfc1c0.png" width="70%" height="70%" />
-48
+
+A turbidez é a medida da dificuldade de um feixe de luz atravessar uma certa quantidade de uma solução, os valores dessa medida são expressos, normalmente, em Unidades Nefelométricas de Turbidez - UNT. 
+Na água suas principais causas da turbidez são: presença de matérias sólidas em suspensão (silte, argila, sílica, coloides), matéria orgânica e inorgânica finamente divididas, organismos microscópicos e algas.
+A turbidez reduz a penetração da luz solar na coluna d´água, prejudicando a fotossíntese das algas e plantas aquáticas submersas.
 
 <img align= center src="https://user-images.githubusercontent.com/83380670/142760364-53ff85aa-2f25-49bd-bb3c-6b9aa2c5c8e5.png" width="70%" height="70%" />
 52
@@ -115,3 +119,8 @@ https://www.laboprime.com.br/analise-de-sulfato-em-agua-e-efluentes/
 https://www.digitalwater.com.br/condutividade-eletrica-guia-definitivo/
 
 https://www.elgalabwater.com/blog/total-organic-carbon-toc
+
+[] MIDIO.A.F,TOMINAGA.M.Y.Exposição humana a trialometanos presentes em água tratada.Revista de Saúde Pública. 1999
+
+[] SANTOS, Carlos Lopes. Trihalometanos: resumo atual. Engenharia Sanitária, v. 26, p. 190-194, jun. 1987.
+
