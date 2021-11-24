@@ -56,7 +56,7 @@ Outliers são valores que destoam muito dos demais considerando para isso estar 
 
 <img align= center src="https://user-images.githubusercontent.com/83380670/143305444-ecfe557a-1f98-41bb-b740-c6c9db9ac16a.png" width="70%" height="70%" />
 
-Não existe correlação linear entre os parâmetros estudados, fato que pode ser confirmado através da vizualização dos gráficos de dispersão entre os parâmentros e os valores da correlação de Spearman presentes na matriz de correlação.
+Não há correlação linear entre os parâmetros estudados, fato que pode ser confirmado através da vizualização dos gráficos de dispersão entre os parâmentros e os valores da correlação de Spearman presentes na matriz de correlação.
 
 <img align= center src="https://user-images.githubusercontent.com/83380670/143308198-7b30899a-57e7-4024-96c6-387b58db7a4c.png" width="70%" height="70%" />
 
@@ -130,43 +130,41 @@ Após feito o tratamento de dados necessário afim de normalização dos registr
 
 Após treino dos modelos, foi feito também a otimização dos hiperparâmetros dos três modelos que apresentaram melhor performance. 
 
+<img align= center src="https://user-images.githubusercontent.com/83380670/143309627-7152dc24-5cb2-432d-8a7b-0e37890b0d54.png" width="80%" height="70%" />
+
 #### Modelo Final
 
-
-## Conclusão
-
-A  água é indispensável para vida humana e possui uma presença signifiativa no cotidiano das pessoas. De acordo com sua utilização, existe um conjunto de critérios e normas para a qualidade da água.
+O modelo que apresentou melhor performance  foi a Regressão Logística, com uma precisão de 69% 
+Vale ressaltar a presença de outliers nas amostras e que foram incluídos na modelagem. Um tratamento adequado a esses dados é fundamental no treinamento do modelo.
 
 
 
 ## Referência Bibliográfica
 
-https://tratamentodeagua.com.br/artigo/qualidade-da-agua/
+[1] SWAN. Qualidade da água. Disponível em <https://tratamentodeagua.com.br/artigo/qualidade-da-agua/> Acesso em 14 de nov de 2021
 
-https://www.gov.br/ana/pt-br/assuntos/monitoramento-e-eventos-criticos/qualidade-da-agua
+[2] ANA.GOV. Qualidade da água. Disponível em: <https://www.gov.br/ana/pt-br/assuntos/monitoramento-e-eventos-criticos/qualidade-da-agua>.Acesso em 14 de nov de 2021
 
-https://www.saaec.com.br/agua/qualidade-da-agua/
+[3] SAAEC.Qualidade da água. Disponível em: <https://www.saaec.com.br/agua/qualidade-da-agua/>.Acesso em 13 de nov de 2021
 
-https://asstefil.com.br/solucoes-tratamento-filtragem-agua/reducao-de-cloraminas/
+[4]. ASSTEFIL. Redução de Cloraminas. Disponível em: <https://asstefil.com.br/solucoes-tratamento-filtragem-agua/reducao-de-cloraminas/>.Acesso em 20 de nov de 2021
 
-http://site.sabesp.com.br/site/interna/Default.aspx?secaoId=40
+[5] SABESP. Qualidade da água tratada. Disponível em: <http://site.sabesp.com.br/site/interna/Default.aspx?secaoId=40>.Acesso em 21 de nov de 2021.
 
 
-https://repositorio.ufmg.br/bitstream/1843/MPBB-6ZQERE/6/cap_tulo_06_qualidade_das__guas.pdf
+[6] APDA. Dureza total. Disponível em <https://www.apda.pt/site/upload/FT-QI-10-%20Dureza%20total.pdf> Acesso em 22 de nov de 2021.
 
-https://www.apda.pt/site/upload/FT-QI-10-%20Dureza%20total.pdf
+[6] DIGITALWATER.Sólidos Dissolvidos e Purificação De Água.Disponível em: <https://www.digitalwater.com.br/solidos-dissolvidos-filtracao-da-agua/> Acesso em 21 de nov. de 2021
 
-https://www.digitalwater.com.br/solidos-dissolvidos-filtracao-da-agua/
+[7] LABOPRIME.Análise de sulfato em água, o que é e como funciona?.Disponível em: <https://www.laboprime.com.br/analise-de-sulfato-em-agua-e-efluentes/> Acesso em 20 de nov de 2021
 
-https://www.laboprime.com.br/analise-de-sulfato-em-agua-e-efluentes/
+[8] CABRERA.L.C, BAUMGARTEN.M.G.Z et al. Adaptação do Método Turbidimétrico para análie de sulfato em amostras de águas estauarinas e marinhas.Repositório FURG.7-10.2006
 
-[] CABRERA.L.C, BAUMGARTEN.M.G.Z et al. Adaptação do Método Turbidimétrico para análie de sulfato em amostras de águas estauarinas e marinhas.Repositório FURG.7-10.2006
+[9] DIGITALWATER.Condutividade Elétrica: Guia Definitivo.Disponível em: <https://www.digitalwater.com.br/condutividade-eletrica-guia-definitivo/> Acesso em 20 de nov. de 2021
 
-https://www.digitalwater.com.br/condutividade-eletrica-guia-definitivo/
+[10] ELGA.Total Organic Carbon (TOC) and its Measurement.Disponível em: <https://www.elgalabwater.com/blog/total-organic-carbon-toc>.Acesso em 22 de nov de 2021
 
-https://www.elgalabwater.com/blog/total-organic-carbon-toc
+[11] MIDIO.A.F,TOMINAGA.M.Y.Exposição humana a trialometanos presentes em água tratada.Revista de Saúde Pública. 1999
 
-[] MIDIO.A.F,TOMINAGA.M.Y.Exposição humana a trialometanos presentes em água tratada.Revista de Saúde Pública. 1999
-
-[] SANTOS, Carlos Lopes. Trihalometanos: resumo atual. Engenharia Sanitária, v. 26, p. 190-194, jun. 1987.
+[12] SANTOS, Carlos Lopes. Trihalometanos: resumo atual. Engenharia Sanitária, v. 26, p. 190-194, jun. 1987.
 
